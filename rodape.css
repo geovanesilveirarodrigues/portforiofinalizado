@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :ital,wght@1,900 & display=swap');
+
+
+:root {
+
+    --cor-primaria: #be20c4;
+    --cor-secundaria: #c8c1c1;
+    --cor-primaria: #000000;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {   
+    
+    
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.cabesalho {
+
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabesalho__menu {
+
+display: flex;
+gap: 80px;
+
+}
+
+.cabecalho__menu__link {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #009000;
+    text-decoration: none;
+}
+
+
+.cabecalho__menu__link:hover {
+
+    color: rgb(9, 252, 29);
+     
+}
+
+.Titulo-estilo {
+
+    color: #009000;
+}
+
+.aprecentacao {
+    padding:  8% 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: -38px;
+}
+
+.aprecetacao__conteudo {
+
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: -60px;
+
+}
+
+.aprecetacao_conteudo_titulo {
+
+    font-size: 2.25rem;
+    color: #009000;
+    padding-left: 5%;
+    
+
+    }
+
+.aprecetacao_conteudo_texto {
+
+    font-size: 20px;
+    padding: 25px;
+    
+}
+
+
+
+.foto {
+    
+    width: 435px;
+    height: 435px;
+    margin-top: -40px;
+
+    
+}
+
+
+
+.rodape{
+
+    padding: 24px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align:center;
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+
+}
+
+
+
+@media screen and (max-width: 988px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 825px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 588px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 910px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 370px;
+        height: 370px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 526px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 980px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 370px;
+        height: 370px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 990px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 370px;
+        height: 370px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 990px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 370px;
+        height: 370px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+
+@media screen and (max-width: 470px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 1050px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 340px;
+        height: 340px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 1150px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 340px;
+        height: 340px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+@media screen and (max-width: 406px) {
+
+ 
+    .geovane {
+        
+        
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    
+    .foto {
+        position: absolute;
+        top: 1220px;  /*Ajuste esse valor conforme necessário*/ 
+        left: 50%;  /*Ajuste esse valor conforme necessário*/ 
+        transform: translateX(-50%);
+        width: 310px;
+        height: 310px;
+        
+    }
+    
+    .rodape {
+        margin-top: 400px; /* Ajuste o valor conforme necessário */
+    }
+
+    .aprecentacao {
+
+        padding:  20% 10%;
+    }
+}
+
+
+
+
+
